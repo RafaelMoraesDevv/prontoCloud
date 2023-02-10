@@ -1,0 +1,160 @@
+#banner {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-position: top, center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.legenda-container {
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0; 
+}
+
+.legenda {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .6);
+    margin-bottom: 5rem;
+}
+
+.legenda h5, .legenda h4 {
+    color: #254159;
+    line-height: 1.5;
+}
+
+.button-cta {
+    display: inline;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.4rem;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 10px;
+    float: right;
+    text-transform: uppercase;
+}
+
+.button-cta2 {
+    display: inline;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.4rem;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.button-cta2:hover, .button-cta:hover {
+    background-color: rgba(255, 68, 0, 0.89);
+    transition: .3s ease-in-out;
+}
+
+#saiba-mais{
+    background-color: #eaeff3;
+    padding: 40px 20px;
+}
+
+#saiba-mais h1 {
+    text-align: center;
+}
+
+#saiba-mais p, 
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+#perguntas {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+dl {
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+
+dt {
+    font-weight: 700;
+    font-family: 'open sans';
+    font-size: 1.6rem;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+/*media query*/
+@media (max-width: 426px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    section, header, footer {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    nav {
+        margin-bottom: 20px;
+    }
+
+    ul li {
+        margin: 0 0 2px 0;
+        
+    }
+
+    h1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        margin-top: 10px;
+    }
+
+    .legenda-container {
+        width: 100%;
+        float: none;
+        margin: 10vh 10vh 0 0; 
+    }
+
+    .button-cta {
+        font-size: 1.2rem;
+        float: none;
+    }
+
+    #saiba-mais p, 
+    #saiba-mais img {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #saiba-mais{
+        padding: 5px;
+    }
+    
+}
